@@ -30,16 +30,17 @@ TODO See commented block at the top of individual libraries for version history 
 
 * Try the examples for the type of project you are interested in.
 * You can host each example on a local web server to run it.
-* Note that examples using WebXR functionality will need an https-enabled server.
+* Note that examples using WebXR functionality will need an HTTPS-enabled server.
 * The `http-server` from Node.js is a good local hosting server with HTTPS support.
-* You can drop the `.wasm` and `.js` files into your project, and call the functions similar to the examples.
+* You can drop the `vol_geom.wasm` and `vol_geom.js` files into your project, and call the functions similar to the examples.
+* Video texture playback is done with the HTML `<video>` object. Using a frame callback, you must update the vologram's texture or material, using the image in the callback. This should also prompt an update to fetch the corresponding geometry frame.
 
-## Platform Support
+## Platform Support and Caveats
 
 * Note that we use HTML5 video functionality to play the video texture of the vologram,
   <i>via</i> a browser extension that is not available on some browsers.
   Recent versions of Google Chrome and Apple Safari both support this extension.
-* Until iOS implements full WebXR support, Android is the best platform for AR and VR functionality, without using third-party plugins.
+* Until iOS implements full WebXR support, Google Android is the best platform for AR and VR functionality, without using third-party plugins.
 
 ## Contribution Guidelines ##
 
