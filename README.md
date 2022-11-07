@@ -20,7 +20,7 @@ TODO See commented block at the top of individual libraries for version history 
 ## Repository Contents
 
 | Library  | Description                                         | Fuzzed With                          |
-|----------|---------|-------|-----------------------------------------------------|--------------------------------------|
+|----------|-----------------------------------------------------|--------------------------------------|
 | `vol_geom.js`  | JavaScript interface to `vol_geom.wasm`. This file contains the functions you need to call from your web script to load and play volograms.                     | |
 | `vol_geom.wasm`  | [Volograms' geometry parsing library](https://github.com/Volograms/vol_libs). Compiled to .wasm.                     | |
 | `wasm_build/`  | Contains the files necessary to build `vol_geom.wasm` if you wish to compile it yourself, or update the [Volograms' geometry parsing library](https://github.com/Volograms/vol_libs) manually.| [AFL](https://github.com/google/AFL) |
