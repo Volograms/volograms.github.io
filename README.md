@@ -19,8 +19,7 @@ TODO See commented block at the top of individual libraries for version history 
 
 | Library  | Version | Files | Description                                         | Fuzzed With                          |
 |----------|---------|-------|-----------------------------------------------------|--------------------------------------|
-| vol_xxx  | 0.7.1   | 2     | This library's desciption here.                     | [AFL](https://github.com/google/AFL) |
-| vol_yyy  | 0.7.1   | 2     | This library's desciption here.                     | [AFL](https://github.com/google/AFL) |
+| [vol_geom](https://github.com/Volograms/vol_libs)  | 0.10   | 2     | Volograms' geometry parsing library. Compiled to .wasm.                     | [AFL](https://github.com/google/AFL) |
 
 ## How do I get started?
 
