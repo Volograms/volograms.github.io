@@ -17,9 +17,12 @@ TODO A screenshot would help here.
 
 TODO See commented block at the top of individual libraries for version history and current features.
 
+## Repository Contents
+
 | Library  | Version | Files | Description                                         | Fuzzed With                          |
 |----------|---------|-------|-----------------------------------------------------|--------------------------------------|
 | [vol_geom](https://github.com/Volograms/vol_libs)  | 0.10   | 2     | Volograms' geometry parsing library. Compiled to .wasm.                     | [AFL](https://github.com/google/AFL) |
+| `vol_geom.wasm`  | 0.10   | 2     | [Volograms' geometry parsing library](https://github.com/Volograms/vol_libs). Compiled to .wasm.                     | [AFL](https://github.com/google/AFL) |
 
 ## How do I get started?
 
